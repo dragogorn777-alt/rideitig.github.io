@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    padding-bottom:0px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+   /*background: linear-gradient(180deg,rgba(255, 255, 255, 1) 50%, rgba(134, 134, 134, 1) 100%);
+width: 100%;}*/
+/*Размещаю слова ссылки по порядку на странице при помощи ориентации*/
+.colontitule{
+    margin-left: 20px;}
+    li{margin-top: 35px;
+       padding-left: 50px;
+        float:right;
+        list-style: none;
+     
+         }
+         .nambe{
+           padding-right:20px ;
+           font-weight: 700;
+
+         }
+         /*Размещаю эмблему вверху с лева*/
+         #x1{
+        
+            margin: 0%;
+          
+         }
+         /*Слова ссылки делаю черного цвета*/
+         .colontitule li a{
+            color: black;
+            display: inline-block;
+
+         }
+         /*При наведении на ссылку слово оно подчеркивается*/
+
+         .colontitule li a:hover{
+            border-bottom: 5px solid #FD6816;
+         }
+         /*ЗАКОНЧИЛ ШАПКУ----------------------------------------------------*/
+         /*Сделал фрейм для первого блока*/
+         .chop{
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 925px;
+            
+            
+        margin-top: 60px;
+         background-color: #fff;
+         border-radius: 25px; 
+        
+        }
+
+         .hero-colotitule{
+            margin-left: 30px;
+            padding: 30px;
+            padding-top: 100px; 
+            
+         }
+     
+ #x3{
+  font-family: "Afacad Flux", sans-serif;
+    font-size:  20px;
+ font-style: italic;  
+ margin-bottom: 20px    
+}
+  .hero-colotitule h1{
+   font-family: "Afacad Flux" sans-serif;
+   font-size: 48px;
+   font-weight: 400;
+ 
+  }
+  #pop{
+   margin-bottom: 20px;
+  }
+  #x2{
+   width: 385px;
+    font-family: "Afacad Flux" sans-serif;
+   font-size: 16px;
+   font-weight: 100;
+   text-align: justify;
+   line-height: 27px;
+   margin-bottom: 20px;
+  }
+  /*Сделал кнопку с ссылкой*/
+  .btn1{
+   font-family: "Alegreya Sans SC" sans-serif;
+   background-color: #FD6816;
+   color: #fff;
+   padding: 25px;
+   border-radius: 45px;
+  font-size: 18px;
+  font-weight: bold;
+   border: 0;
+   position: relative;
+   top: 15px;
+   cursor: pointer;
+   transition: all 500ms ease;
+  }
+  /*Увеличение кнопки при наведении*/
+  .btn1:hover{
+   transform: scale(1.1);
+  }
+/*Размещаю картинку велосипеда*/
+#photoone{
+   height: 480px;
+   width: 720px;
+   position: relative;
+   left: 475px;
+   bottom: 500px;
+}
+/*Размещаю оранжевые блоки которые сгруппировал заранее в фигме*/
+.bloktwo{
+   position: relative;
+   bottom: 380px;
+   left: 8px;
+   /*Растояние между каждой отдельной картинкой*/  
+}
+.bloktwo img{
+   padding: 15px;
+  
+}
+  /*Размещаю центральную часть сайта фото с текстом------------------------------------------------------*/   
+.center1{
+    margin-left: 20px;
+    margin-top: 30px;
+}         
+ /*Растояние между каждой отдельной картинкой*/ 
+        
+ #xx4{
+   padding-right: 45px; ;
+ }  
+ /*Работаю с текстом*/
+
+ .v1{
+   margin-bottom: 15px;
+ }
+#x4{
+   
+   font-weight: 400;
+   font-size: 40px;
+ }     
+ .bloktree-text{
+  font-size: 32px;
+  font-weight: lighter;
+  position: relative;
+  display: inline-block;
+ }
+ .text-x4{
+   margin-left: 20px;
+ } 
+.text-x5{
+   margin-left: 20px;
+ } 
+  .xc3{
+   position: relative;
+   width: 642px;
+  
+   background-color: #fff;
+   border-radius: 25px;
+   padding: 15px;
+ } 
+ .xc2{
+   background-color: #fff;
+   border-radius: 25px;
+     padding: 15px;
+      width: 480px;
+      position: relative;
+      left: 720px;
+      bottom: 183px;
+ }  
+ #zag{
+   font-weight: 600;
+   margin-bottom: 25px;
+ } 
+ #zag2{
+   font-weight: 600;
+     margin-bottom: 25px;
+ }          
+
+ #photo1{
+  position: relative;
+  z-index: 1;
+  bottom: 80px;
+  z-index: 1;
+ }
+.blokfoo{
+   font-size: 32px;
+   background-color: #fff;
+   border-radius: 25px;
+   padding: 30px;
+  font-weight: 50%;
+  position: relative;
+  z-index: 2;
+  left: 1px;
+  bottom: 282px;
+  margin-left: 20px;
+  margin-right: 620px;
+}
+ /*Выполняю блок с текстом в одной строчке и весь футер*/
+
+ footer{
+
+  position: relative;
+  bottom: 70px;
+ }
+.fa, footer img{
+  width: 80px;
+  width: 80px;
+  border-radius: 300px;
+  padding: 25px;
+  
+}
+.fa-phone{
+  position: relative;
+  right: 30px;
+}
+ .fa-envelope{
+  position: relative;
+  right: 30px;
+ }
+  
+ .fa-location-arrow {
+  position: relative;
+  right: 30px;
+ 
+ }
+ .col-md-4{
+  padding-top: 25px;
+ }
+  /*Выполняю призыв к действию сос кидкой и кнопкой*/
+  #btn-five{
+    float: right;
+    font-family: "Alegreya Sans SC" sans-serif;
+   background-color: #FD6816;
+   color: #fff;
+   padding: 25px;
+   padding-left: 50px;
+   padding-right: 50px;
+   border-radius: 45px;
+  font-size: 18px;
+  font-weight: bold;
+   border: 0;
+   position: relative;
+   right: 250px;
+   top: 100px;
+   
+   cursor: pointer;
+   transition: all 500ms ease;}
+    #btn-five:hover{
+   transform: scale(1.1);}
+   .case{
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+    bottom: 310px;
+    left: 25px;
+   }
+
+  #blok-five, pre{
+ font-size: 28px;
+position: relative;
+left: 700px;
+top: 50px;
+}
+.case2{
+  position: relative;
+  left: 700px;
+  font-size: 44px;
+}
